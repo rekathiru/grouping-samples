@@ -1,6 +1,7 @@
 {
       "type": "tomcat1",
       "provider": "apache",
+      "category": "data",
       "host": "isuruh.lk",
       "displayName": "tomcat1",
       "description": "tomcat1 Cartridge",

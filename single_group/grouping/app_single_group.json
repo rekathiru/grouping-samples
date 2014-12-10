@@ -45,7 +45,7 @@
             "startupOrders": [
                 "group.mygroup6,cartridge.mytomcat"
             ],
-            "terminationBehaviour": "terminate-dependents"
+            "terminationBehaviour": "terminate-none"
         }
     }
 }
