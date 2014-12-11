@@ -19,7 +19,7 @@
        "iaasProvider": [
 	     {
           "type": "openstack",
-          "imageId": "RegionOne/b4ca55e3-58ab-4937-82ce-817ebd10240e",
+          "imageId": "RegionOne/a63609be-61df-436f-80bc-d2b6068a4c3a",
 	  "networkInterfaces":[  
             {  
                "name":"network-non-routable",
