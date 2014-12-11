@@ -1,7 +1,7 @@
 #!/bin/sh 
 
 
-curl -X POST -H "Content-Type: application/json" -d @'grouping/autoscale-policy.json' -k -v -u admin:admin https://localhost:9443/api/autoscalePolicies
+curl -X POST -H "Content-Type: application/json" -d @'grouping/autoscale-policy.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
 
 curl -X POST -H "Content-Type: application/json" -d @'grouping/tomcat.json' -k -v -u admin:admin https://localhost:9443/api/cartridges
 
@@ -11,7 +11,7 @@ curl -X POST -H "Content-Type: application/json" -d @'grouping/m1_single_subscip
 
 
 sleep 5 
-curl -X POST -H "Content-Type: application/json" -d@'grouping/deployment-policy.json' -k -v -u admin:admin https://localhost:9443/api/deploymentPolicies
+curl -X POST -H "Content-Type: application/json" -d@'grouping/deployment-policy.json' -k -v -u admin:admin https://localhost:9443/api/applicationDeployments
 
 #
 #remove run time
