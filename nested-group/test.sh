@@ -1,9 +1,9 @@
 #!/bin/sh 
 
-# Deploy autoscale policy
-curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy.json' -k -v -u admin:admin https://localhost:9443/api/autoscalePolicies
+# Create autoscale policy
+curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
 
-# Deploy tomcat cartridge
+# Create tomcat cartridge
 curl -X POST -H "Content-Type: application/json" -d @'tomcat.json' -k -v -u admin:admin https://localhost:9443/api/cartridges
 
 # Deploy tomcat1 cartride
@@ -20,13 +20,19 @@ curl -X POST -H "Content-Type: application/json" -d @'group6c.json' -k -v -u adm
 
 
 sleep 5
-# Deploy application
+# Create application
 curl -X POST -H "Content-Type: application/json" -d @'application_definition.json' -k -v -u admin:admin https://localhost:9443/api/applications
 
 sleep 5
 # GET application
-# curl -X GET -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applications/test_app_yyyyy
+# curl -X GET -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applications/myapp1265
 
-# Deploy deployment policy
-curl -X POST -H "Content-Type: application/json" -d@'deployment-policy.json' -k -v -u admin:admin https://localhost:9443/api/deploymentPolicies
+# Deploy application
+curl -X POST -H "Content-Type: application/json" -d@'deployment-policy.json' -k -v -u admin:admin https://localhost:9443/api/applicationDeployments
+
+# Undeploy application
+curl -X DELETE -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applicationDeployments/myapp1265
+
+# Delete application
+curl -X DELETE -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applications/myapp1265
 
