@@ -33,7 +33,7 @@
                     "partitions": [
                         {
                             "id": "P1",
-                            "max": 25
+                            "max": 8
                         }
                     ]
                 }
