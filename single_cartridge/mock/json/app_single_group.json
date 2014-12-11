@@ -5,8 +5,8 @@
         "cartridges": [
             {
                 "type": "tomcat",
-                "cartridgeMin": 1,
-                "cartridgeMax": 4,
+                "cartridgeMin": 2,
+                "cartridgeMax": 30,
                 "subscribableInfo": {
                     "alias": "mytomcat",
                     "autoscalingPolicy": "autoscale_policy_1"
