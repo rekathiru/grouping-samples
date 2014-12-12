@@ -16,7 +16,7 @@ curl -X POST -H "Content-Type: application/json" -d @'tomcat2.json' -k -v -u adm
 curl -X POST -H "Content-Type: application/json" -d @'group6c.json' -k -v -u admin:admin https://localhost:9443/api/groups
 
 # GET group
-#curl -X GET -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/groups/group6c
+#curl -X GET -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/groups/group6
 
 
 sleep 5
