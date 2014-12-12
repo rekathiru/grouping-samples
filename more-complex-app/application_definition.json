@@ -1,5 +1,5 @@
 {
-  "applicationId": "app_boo_r2",
+  "applicationId": "app_boo_r4",
   "alias": "app_boo_r2",
   "components": {
     "groups": [
@@ -133,7 +133,7 @@
     ],
     "dependencies": {
       "startupOrders": [
-        "group.mygroup8,group.mygroup6,cartridge.mytomcat"
+        "group.mygroup8,group.mygroup6,cartridge.mytomcat1"
       ],
       "terminationBehaviour": "terminate-all"
     }

@@ -33,8 +33,8 @@ sleep 5
 curl -X POST -H "Content-Type: application/json" -d@'deployment-policy.json' -k -v -u admin:admin https://localhost:9443/api/applicationDeployments
 
 # Undeploy application
-curl -X DELETE -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applicationDeployments/myapp1265
+#curl -X DELETE -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applicationDeployments/myapp1265
 
 # Delete application
-curl -X DELETE -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applications/app_boo
+#curl -X DELETE -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applications/app_boo
 
