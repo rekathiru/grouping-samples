@@ -12,7 +12,7 @@
                     {
                         "type": "tomcat2",
                         "cartridgeMin": 1,
-                        "cartridgeMax": 2,
+                        "cartridgeMax": 1,
                         "subscribableInfo": {
                             "alias": "tom2group6",
                             "autoscalingPolicy": "autoscale_policy_1"
@@ -25,7 +25,7 @@
             {
                 "type": "tomcat",
                 "cartridgeMin": 1,
-                "cartridgeMax": 2,
+                "cartridgeMax": 1,
                 "subscribableInfo": {
                     "alias": "mytomcat",
                     "autoscalingPolicy": "autoscale_policy_1"
