@@ -20,23 +20,7 @@
                     }
                 ]
             }
-        ],
-        "cartridges": [
-            {
-                "type": "tomcat",
-                "cartridgeMin": 1,
-                "cartridgeMax": 1,
-                "subscribableInfo": {
-                    "alias": "mytomcat",
-                    "autoscalingPolicy": "autoscale_policy_1"
-                }
-            }
-        ],
-        "dependencies": {
-            "startupOrders": [
-                "group.mygroup6,cartridge.mytomcat"
-            ],
-            "terminationBehaviour": "terminate-none"
+        ]
         }
     }
 }
