@@ -1,6 +1,6 @@
 {
     "applicationPolicy": {
-        "applicationId": "app_cartridge_v1",
+        "applicationId": "app_group_v1",
         "networkPartition": [
             {
                 "id": "openstack_R1",
@@ -33,7 +33,22 @@
                     "partitions": [
                         {
                             "id": "P1",
-                            "max": 8
+                            "max": 5
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "childId": "mytomcat1",
+            "networkPartition": [
+                {
+                    "id": "openstack_R1",
+                    "partitionAlgo": "one-after-another",
+                    "partitions": [
+                        {
+                            "id": "P1",
+                            "max": 10
                         }
                     ]
                 }
@@ -42,4 +57,3 @@
     ]
 
 }
-
