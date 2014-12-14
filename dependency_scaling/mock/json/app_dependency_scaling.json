@@ -13,18 +13,18 @@
                 }
             },
             {
-                "type": "tomcat1",
+                "type": "php",
                 "cartridgeMin": 2,
                 "cartridgeMax": 4,
                 "subscribableInfo": {
-                    "alias": "mytomcat1",
+                    "alias": "myphp",
                     "autoscalingPolicy": "autoscale_policy_1"
                 }
             }
         ],
         "dependencies": {
             "scalingDependants": [
-                "cartridge.mytomcat, cartridge.mytomcat1"
+                "cartridge.mytomcat, cartridge.myphp"
             ],
             "terminationBehaviour": "terminate-none"
         }
