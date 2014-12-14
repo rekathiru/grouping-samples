@@ -40,7 +40,7 @@
             ]
         },
         {
-            "childId": "mytomcat1",
+            "childId": "myphp",
             "networkPartition": [
                 {
                     "id": "openstack_R1",
