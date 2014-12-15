@@ -10,8 +10,8 @@ curl -X POST -H "Content-Type: application/json" -d @'grouping/group6c.json' -k 
 
 sleep 3
 
-curl -X POST -H "Content-Type: application/json" -d @'grouping/app_single_group.json' -k -v -u admin:admin https://localhost:9443/api/applications
+#curl -X POST -H "Content-Type: application/json" -d @'grouping/app_single_group.json' -k -v -u admin:admin https://localhost:9443/api/applications
 
 sleep 3
-curl -X POST -H "Content-Type: application/json" -d@'grouping/dep_single_group.json' -k -v -u admin:admin https://localhost:9443/api/applicationDeployments
+#curl -X POST -H "Content-Type: application/json" -d@'grouping/dep_single_group.json' -k -v -u admin:admin https://localhost:9443/api/applicationDeployments
 
