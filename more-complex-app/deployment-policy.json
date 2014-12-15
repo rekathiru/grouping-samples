@@ -1,4 +1,5 @@
 {
+    "applicationId": "app_boo_r4",
     "applicationPolicy": {
         "applicationId": "app_boo_r4",
         "networkPartition": [

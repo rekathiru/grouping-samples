@@ -1,4 +1,5 @@
 {
+    "applicationId": "app_cartridge_v1",
     "applicationPolicy": {
         "applicationId": "app_cartridge_v1",
         "networkPartition": [

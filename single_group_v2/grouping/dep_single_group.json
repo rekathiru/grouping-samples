@@ -1,5 +1,5 @@
 {
-    "applicationId": "app_group_v3",
+    "applicationId": "app_group_v2",
     "applicationPolicy": {
         "networkPartition": [
             {

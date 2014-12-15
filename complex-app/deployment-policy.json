@@ -1,6 +1,6 @@
 {
+    "applicationId": "app_boo",
     "applicationPolicy": {
-        "applicationId": "app_boo",
         "networkPartition": [
             {
                 "id": "openstack_R1",
