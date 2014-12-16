@@ -1,6 +1,6 @@
 {
+    "applicationId": "app_cartridge_v1",	
     "applicationPolicy": {
-        "applicationId": "app_cartridge_v1",
         "networkPartition": [
             {
                 "id": "openstack_R1",
