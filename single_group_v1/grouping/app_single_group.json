@@ -6,8 +6,8 @@
             {
                 "name": "group6",
                 "alias": "mygroup6",
-                "groupMinInstances": 1,
-                "groupMaxInstances": 1,
+                "groupMinInstances": 2,
+                "groupMaxInstances": 3,
                 "cartridges": [
                     {
                         "type": "tomcat2",
