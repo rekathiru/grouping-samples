@@ -1,7 +1,7 @@
 {
       "type": "c2",
       "provider": "apache",
-      "host": "isuruh.lk",
+      "host": "stratos.apache.org",
       "category": "data",
       "displayName": "c2",
       "description": "c2 Cartridge",
