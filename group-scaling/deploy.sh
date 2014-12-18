@@ -1,7 +1,10 @@
 #!/bin/sh 
 
 # Create autoscale policy
-curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
+curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy-c1.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
+curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy-c2.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
+curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy-c3.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
+curl -X POST -H "Content-Type: application/json" -d @'autoscale-policy-c4.json' -k -v -u admin:admin https://localhost:9443/api/autoscalingPolicies
 
 # Deploy c3 cartridge
 curl -X POST -H "Content-Type: application/json" -d @'c3.json' -k -v -u admin:admin https://localhost:9443/api/cartridges
@@ -31,7 +34,7 @@ sleep 3
 # curl -X GET -H "Content-Type: application/json" -k -v -u admin:admin https://localhost:9443/api/applications/appscaling
 
 # Deploy application
-curl -X POST -H "Content-Type: application/json" -d@'app_deployment_policy.json' -k -v -u admin:admin https://localhost:9443/api/application/appscaling/deploy
+#curl -X POST -H "Content-Type: application/json" -d@'app_deployment_policy.json' -k -v -u admin:admin https://localhost:9443/api/application/appscaling/deploy
 
 
 # Undeploy application

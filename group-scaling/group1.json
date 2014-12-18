@@ -9,10 +9,10 @@
             ],
             "dependencies": {
                 "startupOrders": [
-                    "cartridge.c2,cartridge.c3"
+                    "cartridge.c3,cartridge.c2"
                 ],
                 "scalingDependants": [
-                    "cartridge.c2, cartridge.c3"
+                    "cartridge.c3, cartridge.c2"
                 ],
                 "terminationBehaviour": "terminate-all"
             }
@@ -23,10 +23,10 @@
     ],
     "dependencies": {
         "startupOrders": [
-            "group.group2,cartridge.c1"
+            "cartridge.c1, group.group2"
         ],
         "scalingDependants": [
-            "group.group2, cartridge.c1"
+            "cartridge.c1, group.group2"
         ],
         "terminationBehaviour": "terminate-dependents"
     }
