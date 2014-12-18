@@ -2,13 +2,13 @@
   "id": "autoscale_policy_c2",
   "loadThresholds": {
     "requestsInFlight": {
-      "average": 90
+      "upperLimit": 90
     },
     "memoryConsumption": {
-      "average": 90
+      "upperLimit": 90
     },
     "loadAverage": {
-      "average": 60
+      "upperLimit": 60
     }
   }
 }
