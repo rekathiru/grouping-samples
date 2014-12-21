@@ -25,7 +25,7 @@
     },
     "childPolicies": [
         {
-            "childId": "myc4",
+            "alias": "myc4",
             "networkPartition": [
                 {
                     "id": "openstack_R1",
@@ -40,7 +40,7 @@
             ]
         },
 	{
-            "childId": "group1c1",
+            "alias": "group1c1",
             "networkPartition": [
                 {
                     "id": "openstack_R1",
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "childId": "mygroup2",
+            "alias": "mygroup2",
             "networkPartition": [
                 {
                     "id": "openstack_R1",
