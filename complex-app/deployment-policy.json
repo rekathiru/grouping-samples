@@ -25,7 +25,7 @@
     },
     "childPolicies": [
         {
-            "childId": "mytomcat",
+            "alias": "mytomcat",
             "networkPartition": [
                 {
                     "id": "openstack_R1",
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "childId": "mygroup6",
+            "alias": "mygroup6",
             "networkPartition": [
                 {
                     "id": "openstack_R1",
@@ -55,7 +55,7 @@
             ]
         },
 	{
-            "childId": "mygroup8",
+            "alias": "mygroup8",
             "networkPartition": [
                 {
                     "id": "openstack_R1",

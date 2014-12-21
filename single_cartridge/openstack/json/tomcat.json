@@ -34,7 +34,7 @@
            },
            {
              "name": "keyPair",
-             "value": "lahiru-key"
+             "value": "reka"
            },
 	   { "name" : "securityGroups",
 	     "value" : "default"

@@ -25,7 +25,7 @@
     },
     "childPolicies": [
         {
-            "childId": "mygroup6",
+            "alias": "mygroup6",
             "networkPartition": [
                 {
                     "id": "openstack_R1",

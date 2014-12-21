@@ -18,7 +18,7 @@
                             {
                                 "type": "c2",
                                 "cartridgeMin": 2,
-                                "cartridgeMax": 6,
+                                "cartridgeMax": 2,
                                 "subscribableInfo": {
                                     "alias": "group2c2",
                                     "autoscalingPolicy": "autoscale_policy_c2"
@@ -27,7 +27,7 @@
 			    {
                                 "type": "c3",
                                 "cartridgeMin": 1,
-                                "cartridgeMax": 3,
+                                "cartridgeMax": 1,
                                 "subscribableInfo": {
                                     "alias": "group2c3",
                                     "autoscalingPolicy": "autoscale_policy_c3"
