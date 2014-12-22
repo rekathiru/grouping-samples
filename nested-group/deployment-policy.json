@@ -1,60 +1,55 @@
 {
-    "applicationPolicy": {
-        "applicationId": "myapp1265",
-        "networkPartition": [
+    "applicationId":"myapp1265",
+    "applicationPolicy":{
+        "networkPartition":[
             {
-                "id": "openstack_R1",
-                "activeByDefault": "true",
-                "partitions": [
+                "id":"openstack_R1",
+                "activeByDefault":"true",
+                "partitions":[
                     {
-                        "id": "P1",
-                        "provider": "mock",
-                        "property": [
+                        "id":"P1",
+                        "provider":"mock",
+                        "property":[
                             {
-                                "name": "region",
-                                "value": "RegionOne"
+                                "name":"region",
+                                "value":"RegionOne"
                             }
                         ]
-
                     }
                 ]
             }
-
         ]
-
     },
-    "childPolicies": [
+    "childPolicies":[
         {
-            "alias": "mytomcat",
-            "networkPartition": [
+            "alias":"mytomcat",
+            "networkPartition":[
                 {
-                    "id": "openstack_R1",
-                    "partitionAlgo": "one-after-another",
-                    "partitions": [
+                    "id":"openstack_R1",
+                    "partitionAlgo":"one-after-another",
+                    "partitions":[
                         {
-                            "id": "P1",
-                            "max": 5
+                            "id":"P1",
+                            "max":5
                         }
                     ]
                 }
             ]
         },
         {
-            "alias": "mygroup6",
-            "networkPartition": [
+            "alias":"mygroup6",
+            "networkPartition":[
                 {
-                    "id": "openstack_R1",
-                    "partitionAlgo": "one-after-another",
-                    "partitions": [
+                    "id":"openstack_R1",
+                    "partitionAlgo":"one-after-another",
+                    "partitions":[
                         {
-                            "id": "P1",
-                            "max": 5
+                            "id":"P1",
+                            "max":5
                         }
                     ]
                 }
             ]
         }
     ]
-
 }
-
