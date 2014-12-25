@@ -6,7 +6,7 @@
             {
                 "type": "tomcat",
                 "cartridgeMin": 2,
-                "cartridgeMax": 10,
+                "cartridgeMax": 5,
                 "subscribableInfo": {
                     "alias": "mytomcat",
                     "autoscalingPolicy": "autoscale_policy_1"
