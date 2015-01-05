@@ -1,10 +1,10 @@
 {
-      "type": "tomcat1",
+      "type": "php",
       "provider": "apache",
       "category": "data",
       "host": "isuruh.lk",
-      "displayName": "tomcat1",
-      "description": "tomcat1 Cartridge",
+      "displayName": "php",
+      "description": "php Cartridge",
       "version": "7",
       "multiTenant": "false",
       "portMapping": [

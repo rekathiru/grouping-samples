@@ -7,23 +7,23 @@
                 "name": "group6",
                 "alias": "mygroup6",
                 "groupMinInstances": 1,
-                "groupMaxInstances": 1,
+                "groupMaxInstances": 2,
                 "cartridges": [
                     {
-                        "type": "tomcat2",
+                        "type": "esb",
                         "cartridgeMin": 1,
                         "cartridgeMax": 2,
                         "subscribableInfo": {
-                            "alias": "tom2group6",
+                            "alias": "esbgroup6",
                             "autoscalingPolicy": "autoscale_policy_1"
                         }
                     },
                     {
-                        "type": "tomcat1",
+                        "type": "php",
                         "cartridgeMin": 1,
                         "cartridgeMax": 2,
                         "subscribableInfo": {
-                            "alias": "tom1group6",
+                            "alias": "phpgroup6",
                             "autoscalingPolicy": "autoscale_policy_1"
                         }
                     }
@@ -33,8 +33,8 @@
         "cartridges": [
             {
                 "type": "tomcat",
-                "cartridgeMin": 1,
-                "cartridgeMax": 2,
+                "cartridgeMin": 2,
+                "cartridgeMax": 4,
                 "subscribableInfo": {
                     "alias": "mytomcat",
                     "autoscalingPolicy": "autoscale_policy_1"

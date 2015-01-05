@@ -1,10 +1,10 @@
 {
-      "type": "tomcat2",
-      "provider": "apache",
+      "type": "esb",
+      "provider": "wso2",
       "category": "data",
       "host": "isuruh.lk",
-      "displayName": "tomcat2",
-      "description": "tomcat2 Cartridge",
+      "displayName": "esb",
+      "description": "esb Cartridge",
       "version": "7",
       "multiTenant": "false",
       "portMapping": [
@@ -41,11 +41,5 @@
 	   } 
           ]
          }
-      ],
-     "loadBalancer": {
-        "property": {
-            "name": "no.load.balancer",
-            "value": "true"
-        }
-      },
+      ]
 }

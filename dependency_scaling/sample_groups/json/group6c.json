@@ -2,11 +2,11 @@
     "name": "group6",
     "isGroupScalingEnabled": "true",
     "cartridges": [
-        "tomcat2","tomcat1"
+        "esb","php"
     ],
     "dependencies": {
         "startupOrders": [
-            "cartridge.tomcat2,cartridge.tomcat1"
+            "cartridge.esb,cartridge.php"
         ],
         "terminationBehaviour": "terminate-all"
     }

@@ -1,6 +1,6 @@
 {
+    "applicationId": "app_group_v2",
     "applicationPolicy": {
-        "applicationId": "app_group_v2",
         "networkPartition": [
             {
                 "id": "openstack_R1",
